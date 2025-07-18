@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "fetch": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    },
+    "time": {
+      "type": "stdio", 
+      "command": "python",
+      "args": ["-m", "mcp_server_time"]
+    }
+  }
+}
